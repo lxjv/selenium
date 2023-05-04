@@ -1,0 +1,11 @@
+env:
+  TERM: alacritty
+
+import:
+  - ~/.config/alacritty/theme.yml
+  - ~/.config/alacritty/font.yml
+
+live_config_reload: true
+
+shell:
+  program: /bin/fish

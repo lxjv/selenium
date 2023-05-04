@@ -1,0 +1,24 @@
+# Helix Config - mostly stolen from this youtube video
+# https://www.youtube.com/watch?v=aiSI6vdZWgE
+
+theme = "catppuccin_mocha"
+
+[editor]
+line-number = "relative"
+bufferline = "multiple"
+shell = ["fish", "-c"]
+
+[editor.cursor-shape]
+insert = "bar"
+select = "underline"
+
+[editor.statusline]
+left = ["mode", "spinner"]
+center = ["file-name"]
+right = ["position"]
+
+[editor.statusline.mode]
+normal = "NORMAL"
+insert = "INSERT"
+select = "SELECT"
+
