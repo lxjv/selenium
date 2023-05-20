@@ -1,0 +1,52 @@
+[core]
+	editor = hx
+
+[user]
+	name = Laker Turner
+	email = la@laker.gay
+	signingkey = ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIOAbu30yEWXnSFjscc94wwa+Qj7OQa9bgP9SYcDzjUY/
+
+[init]
+	defaultBranch = main
+
+[commit]
+	gpgsign = true
+
+[gpg]
+	format = ssh
+
+[gpg "ssh"]
+	program = /opt/1Password/op-ssh-sign
+
+[url "git@gitlab.com:"]
+	insteadOf = https://gitlab.com/
+	
+[url "git@bitbucket.org:"]
+	insteadOf = https://bitbucket.org/
+	
+[url "git@github.com:"]
+	insteadOf = https://github.com/
+	
+[url "git@git.sr.ht:"]
+	insteadOf = git@sr.ht:
+
+[url "ssh://aur@aur.archlinux.org"]
+	insteadOf = aur
+		
+[color]
+	ui = auto
+	branch = auto
+	diff = auto
+	grep = auto
+	interactive = auto
+	status = auto
+
+[alias]
+	a = add
+	co = checkout
+	st = status
+	c = 'commit'
+	unstage = 'reset HEAD --'
+	p = push
+	last = 'log -1 HEAD'
+	cl = 'clone'
