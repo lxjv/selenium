@@ -2,8 +2,8 @@
 
 * {
     /* `otf-font-awesome` is required to be installed for icons */
-    font-family: FontAwesome, 'Cousine Nerd Font', Helvetica, Arial, sans-serif;
-    font-size: 13.7px;
+    font-family: FontAwesome, 'BlexMono Nerd Font Mono', Helvetica, Arial, sans-serif;
+    font-size: 1em;
 }
 
 window#waybar {
